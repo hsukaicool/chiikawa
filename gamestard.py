@@ -22,14 +22,14 @@ pygame.display.set_caption("問答遊戲")
 init_music()
 
 
-# 定义游戏状态
+# 定義遊戲狀態
 STATE_HOME = 'home'      # 首頁狀態
 STATE_MENU = 'menu'
 STATE_PLAYING = 'playing'
 STATE_CHAT = 'chat'      # 新增聊天模式
 STATE_PAUSED = 'paused'
 STATE_GAME_OVER = 'game_over'
-current_state = STATE_HOME  # 初始化为首頁
+current_state = STATE_HOME  # 初始化首頁
 
 # 設置字體
 font = pygame.font.Font(FONT_PATH, 50)
